@@ -3332,11 +3332,23 @@ input[type="button"].btn-block {
 
 /* footer follow */
 
-.copy {
-  hove
+.ftco-animate-follow{
+  margin-left: 210px;
+  }
 
+  
+  @media (max-width:450px){
+    .ftco-animate-follow{
+      margin-left: 0px;
+      }
+    
 }
- 
+  @media (max-width:776px){
+    .ftco-animate-follow{
+      margin-left: 0px;
+      }
+    
+}
 
 
 
@@ -7833,6 +7845,7 @@ h1, h2, h3, h4, h5,
       @media (max-width:450px){
         .services .icon {
           display: none;
+          
       }
     }
       @media (max-width:776px){
@@ -7840,6 +7853,9 @@ h1, h2, h3, h4, h5,
           display: none;
       }
     }
+
+
+
       
 .package-program {
   margin-bottom: 0;
@@ -8136,9 +8152,7 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
-  .ftco-animate-follow{
-  margin-left: 210px;
-  }
+
 .bg-primary {
   background: #d291bc !important; }
 
